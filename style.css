@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #4c5b68;
+    overflow: hidden;
+}
+
+nav {
+    height: 80px;
+    padding: 0 7%;
+    white-space: nowrap;
+    border-bottom: 1px solid #eee;
+}
+
+.brand {
+    display: inline-block;
+    width: 28%;
+    vertical-align: middle;
+    padding-top: 24px;
+}
+
+.brand img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.brand-name {
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.nav-links {
+    display: inline;
+    padding-left: 6rem;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+    position: relative;
+    top: 18px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #71808d;
+    font-size: 18px;
+}
+
+.user-button {
+    float: inline-end;
+    margin-top: 16px;
+    padding: 12px 18px;
+    border: 0;
+    border-radius: 10px;
+    background: #eaf7ff;
+    color: #10a5f2;
+    font-weight: bold;
+}
+
+.hero {
+    height: calc(100vh - 80px);
+    padding: 5vh 7%;
+    white-space: nowrap;
+}
+
+.leftDiv,
+.rightDiv {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+.leftDiv {
+    padding: 5vh 2vw;
+}
+
+.leftDiv h1 {
+    max-width: 550px;
+    margin: 0 0 15px;
+    font-size: 45px;
+    line-height: 1.2;
+}
+
+.leftDiv h1 span {
+    color: #10a5f2;
+}
+
+.leftDiv p {
+    max-width: 550px;
+    color: #a1adb6;
+    line-height: 1.5;
+}
+
+.book-button {
+    padding: 15px 28px;
+    border: 0;
+    border-radius: 12px;
+    background: #10a8f5;
+    color: white;
+    font-weight: bold;
+}
+
+.rightDiv img {
+    height: 400px;
+    width: 100%;
+}
